@@ -1,0 +1,27 @@
+import java.util .Scanner; 
+
+public class Addition
+    {  
+
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args);
+    {
+            Scanner input   = new Scanner(System.in);
+            int número1;
+            int número2;
+            int sum;
+            
+            System.out.print("insira o primeiro número");
+            número1 = input.nextInt();
+            
+            System.out.print("insira o segundo número");
+            número2 = input.nextInt();
+            
+            sum = número1 + número2;
+            
+            System.out.printf("A soma é %d%n", sum);
+    }
+}
